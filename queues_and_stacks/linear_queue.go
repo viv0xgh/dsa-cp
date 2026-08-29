@@ -64,7 +64,7 @@ func (q Queue) isFull() bool {
 	return len(q.items) == cap(q.items)
 }
 
-func main() {
+func QueueOperations() {
 	// make takes 3 arguments here
 	// type, len and capacity
 	// len & cap functions can be used to check respective values
